@@ -1,0 +1,113 @@
+/* GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Atkinson Hyperlegible Next', monospace;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    min-height: 100vh;
+}
+
+/* LOGIN */
+body h1{
+    margin-bottom: 1rem;
+}
+
+.container-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 25rem;
+    margin-bottom: 1rem;
+}
+
+.container-form input{
+    height: 2.2rem;
+    padding-left: 0.5rem;
+}
+
+.container-form label{
+    padding-left: 0.3rem;
+}
+
+.container-form input, .container-form label{
+    font-size: 20px;
+}
+
+#enter{
+    width: 25rem;
+    height: 2.2rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(104, 158, 240);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+form p{
+    text-align: center;
+}
+
+/* HOME */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-right: 1px solid black;
+    height: 100%;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container-nav-img{
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.container-nav-img img{
+    width: 2.8rem;
+}
+
+.container-title{
+    margin: 1.2rem 0;
+    margin-left: 6rem;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+    padding: 1rem;
+}
+
+.container-coleta{
+    display: flex;
+    flex-direction: column;
+    white-space: pre;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.container-coleta ul{
+    list-style: none;
+}
